@@ -33,8 +33,16 @@ header{
     background: var(--bggradient);
 }
 
+header span{
+    color: #dbe9ea;
+}
+
 header .nav-item{
     padding: 0.9em;
+}
+
+header #navactive{
+    color: #cc7992;
 }
 
 header .navbar-brand{
@@ -42,20 +50,20 @@ header .navbar-brand{
 }
 
 header .nav-link:hover{
-    color: black;
+    color: #cc7992;
 }
 
-header .col-md-5{
+header .col-md-5, header .col-md-12{
     padding: 4.2vmin 1vmin;
 }
 
-header .col-md-7{
+header .col-md-7, header .col-md-12{
     padding: 22vmin 1vmin;
     padding-bottom: 35vmin;
     font-family: var(--Rubik);
     color: #097969;
 }
-header .col-md-7 p{
+header .col-md-7 p, header .col-md-12 p{
     color: #203f30;
     font-family: var(--light-black);
 
@@ -100,6 +108,10 @@ header .container .col-md-7 button{
     position: relative;
 }
 
+.section-1 h1{
+    color: #7dc387;
+}
+
 .section-1 .row .col-md-6 .panel{
     top: 7vmin;
     background: white;
@@ -130,7 +142,6 @@ header .container .col-md-7 button{
     background-color: #7dc387 ;
 }
 .cover .content{
-    background: rgba(0,0,0,0.2);
     height: 100%;
     width: 100%;
     padding-top: 19vmin;
@@ -139,13 +150,13 @@ header .container .col-md-7 button{
 .cover .content h1{
     font-family: var(--Patua);
     font-size: 6vmin;
-    color: whitesmoke;
+    color: white;
 }
 
 .cover .content p{
     font-family: var(--Rubik);
-    font-size: 2vmin;
-    color: whitesmoke;
+    font-size: 2.5vmin;
+    color: white;
 
 
 }
@@ -234,10 +245,12 @@ font-size: 2vmin;
 /* section 3 */
 
 .section-3{
-    height: 70vmin;
     margin-top: 15vmin;
     background: var(--bggradient);
+    
 }
+
+
 .section-3 .col-md-12 h1{
     padding: 2em 0 0.5em 0;
     color: white;
@@ -260,4 +273,41 @@ font-size: 2vmin;
     padding: 2vmin 4.5vmin;
     margin: 1em;
     font-family: var(--Snigle-font);
+}
+/* footer */
+
+footer{
+    background: rgba(0,0,0,0.815);
+    overflow-x: hidden;
+    padding: 14vmin 5vmin 1vmin;
+
+}
+
+footer .col-md-12 p span{
+    color: #7dc387
+}
+
+footer input{
+    border: none !important;
+}
+
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i{
+    color: #7dc387;
+}
+
+footer .column i + i{
+    padding: 0 0.5em;
+}
+
+footer  .col-md-12{
+padding: 10vmin 2vmin 0vmin;
+margin: 0vmin;
 }
